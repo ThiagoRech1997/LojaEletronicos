@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Loja Eletronicos.exe" version="1.0.0.2" publicKeyToken="c00ea6bcb5b527c9" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Loja Eletronicos" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Loja Eletronicos.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          Opções de Manifesto UAC
+          Se desejar mudar o nível de Controle de Conta de Usuário do Windows, substitua o 
+          nó requestedExecutionLevel por um dos seguintes.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         Se deseja usar a Virtualização de Arquivos e Registro para compatibilidade 
+         com versões anteriores, exclua o nó requestedExecutionLevel.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Bunifu_UI_v1.52.dll" size="225792">
+      <assemblyIdentity name="Bunifu_UI_v1.52" version="1.3.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>J8jOp+eTrOc3QViBpcFrTi2YzkZgnScugsbJBa0tnzY=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Loja Eletronicos.exe" size="263096">
+      <assemblyIdentity name="Loja Eletronicos" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>rpdU9KS3j48VcKdlAY0EIX+iWlqGNrPxLPKRH8k6b8E=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Loja Eletronicos.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>rl5/qDc7Jz+tB+BIbOv9iMGPlRe6YJwrjmU09dnlPcs=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=POLARIS\Thiago" issuerKeyHash="df1bddb3fdb19e7b1da5fb4147486f37214aba02" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>OhCkXUq0xlkoueUH0EbtorQjjOEJwplgBNuqGEcQaRg=</DigestValue></Reference></SignedInfo><SignatureValue>kNBV4m7R/5695ryjYuhyIghQqm58FCqRKTZVPtRf9dInt+s2XYRfuLatcfBAif5+qVGQ4Gd2mJNOnwqXpuCgQgkRwVMv4e2cqd1Mp3Lzuomghj3LwoXNP6jf9QsXk1wwMR6Gi53DpP2i+gPsnmTLGqS1oMOCWKrFzsCjvP+2MtQ=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>psXpOspnQX7zBlpYsE1Q/+UxwwPfZnLl0sxzAbyRw1OswjGFH2/V+ZYFyydLoNZsEgfFlZdOGao7GjG0MJOdtjoDrO/iVeqKD0XBRlL+T9hWg3LV9IP9OWb8ldC3HBlyBCEos3KTULolYyEcothfoJqetTvZOXfKtyucjfjOG0k=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="1869104718aadb046099c209e18c23b4a2ed46d007e5b92859c6b44a5da4103a" Description="" Url=""><as:assemblyIdentity name="Loja Eletronicos.exe" version="1.0.0.2" publicKeyToken="c00ea6bcb5b527c9" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=POLARIS\Thiago</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>Dvs6+iFAGBWvR29zNW8rGh/nURJqRUu1269g+P2J2Wg=</DigestValue></Reference></SignedInfo><SignatureValue>aFkhWzUU9VaTPeH5sY5xmYfMy4aUZQaRkzU/HK8GIEh45ynZUF7gPRUFNd8iWPdPwIEs8/STgQl78mW6Um4xHeZhddnV+bB5NAjtyqxMDw04c5No8px44srG+L1IyRmPMlhSDLvKFY+dDe/oFpRMDdgTovNbh76geBuvwlXNeH4=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>psXpOspnQX7zBlpYsE1Q/+UxwwPfZnLl0sxzAbyRw1OswjGFH2/V+ZYFyydLoNZsEgfFlZdOGao7GjG0MJOdtjoDrO/iVeqKD0XBRlL+T9hWg3LV9IP9OWb8ldC3HBlyBCEos3KTULolYyEcothfoJqetTvZOXfKtyucjfjOG0k=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB0TCCATqgAwIBAgIQPfkx70NZz5dDBESi3A8DhDANBgkqhkiG9w0BAQsFADAnMSUwIwYDVQQDHhwAUABPAEwAQQBSAEkAUwBcAFQAaABpAGEAZwBvMB4XDTE4MDcwMTIzMDY0MVoXDTE5MDcwMjA1MDY0MVowJzElMCMGA1UEAx4cAFAATwBMAEEAUgBJAFMAXABUAGgAaQBhAGcAbzCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEApsXpOspnQX7zBlpYsE1Q/+UxwwPfZnLl0sxzAbyRw1OswjGFH2/V+ZYFyydLoNZsEgfFlZdOGao7GjG0MJOdtjoDrO/iVeqKD0XBRlL+T9hWg3LV9IP9OWb8ldC3HBlyBCEos3KTULolYyEcothfoJqetTvZOXfKtyucjfjOG0kCAwEAATANBgkqhkiG9w0BAQsFAAOBgQCDW0PUyQIw8QZ1wlvDKzG4UUcs7YWoLBbls7iYrOb4+F3Va5iOb0yRWcJMWS7ZgwafnC2JxPCgrotEwmDnEoQWJegac3+YaKqUCKqJRixqM67Ekwgb/fu4ptXfqEin5SzSeKOU3/6Uxa6XM/ybgaW83iBJcfUPWBYUmSntsu4+1w==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

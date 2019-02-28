@@ -1,0 +1,42 @@
+C:\Users\Thiago\source\repos\Loja Eletronicos\Loja Eletronicos\bin\Debug\Loja Eletronicos.exe.config
+C:\Users\Thiago\source\repos\Loja Eletronicos\Loja Eletronicos\bin\Debug\Loja Eletronicos.exe.manifest
+C:\Users\Thiago\source\repos\Loja Eletronicos\Loja Eletronicos\bin\Debug\Loja Eletronicos.application
+C:\Users\Thiago\source\repos\Loja Eletronicos\Loja Eletronicos\bin\Debug\Loja Eletronicos.exe
+C:\Users\Thiago\source\repos\Loja Eletronicos\Loja Eletronicos\bin\Debug\Loja Eletronicos.pdb
+C:\Users\Thiago\source\repos\Loja Eletronicos\Loja Eletronicos\bin\Debug\Bunifu_UI_v1.52.dll
+C:\Users\Thiago\source\repos\Loja Eletronicos\Loja Eletronicos\obj\Debug\Loja_Eletronicos.Caixa.resources
+C:\Users\Thiago\source\repos\Loja Eletronicos\Loja Eletronicos\obj\Debug\Loja_Eletronicos.Cliente.resources
+C:\Users\Thiago\source\repos\Loja Eletronicos\Loja Eletronicos\obj\Debug\Loja_Eletronicos.CliDelete.resources
+C:\Users\Thiago\source\repos\Loja Eletronicos\Loja Eletronicos\obj\Debug\Loja_Eletronicos.CliInsert.resources
+C:\Users\Thiago\source\repos\Loja Eletronicos\Loja Eletronicos\obj\Debug\Loja_Eletronicos.CliUpdate.resources
+C:\Users\Thiago\source\repos\Loja Eletronicos\Loja Eletronicos\obj\Debug\Loja_Eletronicos.CliUpdate1.resources
+C:\Users\Thiago\source\repos\Loja Eletronicos\Loja Eletronicos\obj\Debug\Loja_Eletronicos.Compra.resources
+C:\Users\Thiago\source\repos\Loja Eletronicos\Loja Eletronicos\obj\Debug\Loja_Eletronicos.MakeBuy.resources
+C:\Users\Thiago\source\repos\Loja Eletronicos\Loja Eletronicos\obj\Debug\Loja_Eletronicos.PayBuy.resources
+C:\Users\Thiago\source\repos\Loja Eletronicos\Loja Eletronicos\obj\Debug\Loja_Eletronicos.PayBuy1.resources
+C:\Users\Thiago\source\repos\Loja Eletronicos\Loja Eletronicos\obj\Debug\Loja_Eletronicos.Form1.resources
+C:\Users\Thiago\source\repos\Loja Eletronicos\Loja Eletronicos\obj\Debug\Loja_Eletronicos.Funcionario.resources
+C:\Users\Thiago\source\repos\Loja Eletronicos\Loja Eletronicos\obj\Debug\Loja_Eletronicos.FunDelete.resources
+C:\Users\Thiago\source\repos\Loja Eletronicos\Loja Eletronicos\obj\Debug\Loja_Eletronicos.FunInsert.resources
+C:\Users\Thiago\source\repos\Loja Eletronicos\Loja Eletronicos\obj\Debug\Loja_Eletronicos.FunUpdate.resources
+C:\Users\Thiago\source\repos\Loja Eletronicos\Loja Eletronicos\obj\Debug\Loja_Eletronicos.FunUpdate1.resources
+C:\Users\Thiago\source\repos\Loja Eletronicos\Loja Eletronicos\obj\Debug\Loja_Eletronicos.HomePage.resources
+C:\Users\Thiago\source\repos\Loja Eletronicos\Loja Eletronicos\obj\Debug\Loja_Eletronicos.Login.resources
+C:\Users\Thiago\source\repos\Loja Eletronicos\Loja Eletronicos\obj\Debug\Loja_Eletronicos.PaySell.resources
+C:\Users\Thiago\source\repos\Loja Eletronicos\Loja Eletronicos\obj\Debug\Loja_Eletronicos.MakeSell.resources
+C:\Users\Thiago\source\repos\Loja Eletronicos\Loja Eletronicos\obj\Debug\Loja_Eletronicos.Produto.resources
+C:\Users\Thiago\source\repos\Loja Eletronicos\Loja Eletronicos\obj\Debug\Loja_Eletronicos.ProDelete.resources
+C:\Users\Thiago\source\repos\Loja Eletronicos\Loja Eletronicos\obj\Debug\Loja_Eletronicos.ProInsert.resources
+C:\Users\Thiago\source\repos\Loja Eletronicos\Loja Eletronicos\obj\Debug\Loja_Eletronicos.ProUpdate.resources
+C:\Users\Thiago\source\repos\Loja Eletronicos\Loja Eletronicos\obj\Debug\Loja_Eletronicos.Properties.Resources.resources
+C:\Users\Thiago\source\repos\Loja Eletronicos\Loja Eletronicos\obj\Debug\Loja_Eletronicos.ProUpdate1.resources
+C:\Users\Thiago\source\repos\Loja Eletronicos\Loja Eletronicos\obj\Debug\Loja_Eletronicos.Venda.resources
+C:\Users\Thiago\source\repos\Loja Eletronicos\Loja Eletronicos\obj\Debug\Loja_Eletronicos.PaySell1.resources
+C:\Users\Thiago\source\repos\Loja Eletronicos\Loja Eletronicos\obj\Debug\Loja Eletronicos.csproj.GenerateResource.cache
+C:\Users\Thiago\source\repos\Loja Eletronicos\Loja Eletronicos\obj\Debug\Loja Eletronicos.csproj.CoreCompileInputs.cache
+C:\Users\Thiago\source\repos\Loja Eletronicos\Loja Eletronicos\obj\Debug\Loja Eletronicos.exe.manifest
+C:\Users\Thiago\source\repos\Loja Eletronicos\Loja Eletronicos\obj\Debug\Loja Eletronicos.application
+C:\Users\Thiago\source\repos\Loja Eletronicos\Loja Eletronicos\obj\Debug\Loja Eletronicos.csproj.CopyComplete
+C:\Users\Thiago\source\repos\Loja Eletronicos\Loja Eletronicos\obj\Debug\Loja Eletronicos.exe
+C:\Users\Thiago\source\repos\Loja Eletronicos\Loja Eletronicos\obj\Debug\Loja Eletronicos.pdb
+C:\Users\Thiago\source\repos\Loja Eletronicos\Loja Eletronicos\obj\Debug\Loja Eletronicos.csprojAssemblyReference.cache

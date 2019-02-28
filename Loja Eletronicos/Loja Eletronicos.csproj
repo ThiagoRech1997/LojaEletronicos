@@ -1,0 +1,410 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C978C28C-8FFA-435B-AA65-A878C652D359}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Loja_Eletronicos</RootNamespace>
+    <AssemblyName>Loja Eletronicos</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>D:\Users\Thiago\Dropbox\UTFPR\4 Periodo\Banco 2\APS-Banco_2_2018-1\Aplicativo\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>3</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>353C23D053CAC9943F1D1A1CB0EDC8891E4EB658</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>Loja Eletronicos_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Bunifu_UI_v1.52">
+      <HintPath>D:\Users\Thiago\Downloads\Bunifu UI WinForms 1.5.5.3\Bunifu_UI_v1.52.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.OracleClient" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Caixa.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Caixa.Designer.cs">
+      <DependentUpon>Caixa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cliente\CliDelete.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Cliente\CliDelete.Designer.cs">
+      <DependentUpon>CliDelete.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cliente.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Cliente.Designer.cs">
+      <DependentUpon>Cliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cliente\CliInsert.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Cliente\CliInsert.Designer.cs">
+      <DependentUpon>CliInsert.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cliente\CliUpdate.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Cliente\CliUpdate.Designer.cs">
+      <DependentUpon>CliUpdate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cliente\CliUpdate1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cliente\CliUpdate1.Designer.cs">
+      <DependentUpon>CliUpdate1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Compra.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Compra.Designer.cs">
+      <DependentUpon>Compra.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DragControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Funcionario.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Funcionario.Designer.cs">
+      <DependentUpon>Funcionario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Funcionario\FunInsert.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Funcionario\FunInsert.Designer.cs">
+      <DependentUpon>FunInsert.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Funcionario\FunDelete.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Funcionario\FunDelete.Designer.cs">
+      <DependentUpon>FunDelete.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Funcionario\FunUpdate.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Funcionario\FunUpdate.Designer.cs">
+      <DependentUpon>FunUpdate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Funcionario\FunUpdate1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Funcionario\FunUpdate1.Designer.cs">
+      <DependentUpon>FunUpdate1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HomePage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="HomePage.Designer.cs">
+      <DependentUpon>HomePage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Compra\MakeBuy.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Compra\MakeBuy.Designer.cs">
+      <DependentUpon>MakeBuy.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Compra\PayBuy.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Compra\PayBuy.Designer.cs">
+      <DependentUpon>PayBuy.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Compra\PayBuy1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Compra\PayBuy1.Designer.cs">
+      <DependentUpon>PayBuy1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Venda\PaySell1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Venda\PaySell1.Designer.cs">
+      <DependentUpon>PaySell1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Venda\PaySell.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Venda\PaySell.Designer.cs">
+      <DependentUpon>PaySell.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Venda\MakeSell.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Venda\MakeSell.Designer.cs">
+      <DependentUpon>MakeSell.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Produto\ProDelete.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Produto\ProDelete.Designer.cs">
+      <DependentUpon>ProDelete.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Produto.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Produto.Designer.cs">
+      <DependentUpon>Produto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Produto\ProInsert.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Produto\ProInsert.Designer.cs">
+      <DependentUpon>ProInsert.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Produto\ProUpdate.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Produto\ProUpdate.Designer.cs">
+      <DependentUpon>ProUpdate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Produto\ProUpdate1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Produto\ProUpdate1.Designer.cs">
+      <DependentUpon>ProUpdate1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Usuraio.cs" />
+    <Compile Include="Venda.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Venda.Designer.cs">
+      <DependentUpon>Venda.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Caixa.resx">
+      <DependentUpon>Caixa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cliente.resx">
+      <DependentUpon>Cliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cliente\CliDelete.resx">
+      <DependentUpon>CliDelete.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cliente\CliInsert.resx">
+      <DependentUpon>CliInsert.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cliente\CliUpdate.resx">
+      <DependentUpon>CliUpdate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cliente\CliUpdate1.resx">
+      <DependentUpon>CliUpdate1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Compra.resx">
+      <DependentUpon>Compra.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Compra\MakeBuy.resx">
+      <DependentUpon>MakeBuy.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Compra\PayBuy.resx">
+      <DependentUpon>PayBuy.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Compra\PayBuy1.resx">
+      <DependentUpon>PayBuy1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Funcionario.resx">
+      <DependentUpon>Funcionario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Funcionario\FunDelete.resx">
+      <DependentUpon>FunDelete.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Funcionario\FunInsert.resx">
+      <DependentUpon>FunInsert.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Funcionario\FunUpdate.resx">
+      <DependentUpon>FunUpdate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Funcionario\FunUpdate1.resx">
+      <DependentUpon>FunUpdate1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HomePage.resx">
+      <DependentUpon>HomePage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Venda\PaySell.resx">
+      <DependentUpon>PaySell.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Venda\MakeSell.resx">
+      <DependentUpon>MakeSell.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Produto.resx">
+      <DependentUpon>Produto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Produto\ProDelete.resx">
+      <DependentUpon>ProDelete.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Produto\ProInsert.resx">
+      <DependentUpon>ProInsert.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Produto\ProUpdate.resx">
+      <DependentUpon>ProUpdate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Produto\ProUpdate1.resx">
+      <DependentUpon>ProUpdate1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Venda.resx">
+      <DependentUpon>Venda.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Venda\PaySell1.resx">
+      <DependentUpon>PaySell1.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Loja Eletronicos_TemporaryKey.pfx" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close white.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ecommerce.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\get-money.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\get-money1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\house.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\network.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cart.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\customer-service.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\box.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cash-register.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\plus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\refresh.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\remove.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Caixa\" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.6.1">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.6.1 %28x86 e x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
